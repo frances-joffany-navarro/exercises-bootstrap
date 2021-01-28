@@ -1,0 +1,23 @@
+header,section,footer,#four article {
+    background: lavender;
+    border: black;
+    text-align: center;
+    border: solid 1px ;
+}
+
+
+#five header,#five section,#five footer{
+    background: lightgray;
+    border: darkgray;
+    text-align: center;
+    border: solid 1px ;
+}
+
+/*#one section{
+    background: lavender;
+    border: black;
+    text-align: center;
+    border: solid 2px ;
+}
+*/
+

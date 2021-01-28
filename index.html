@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Bootstrap Exercise</title>
+</head>
+
+<body>
+    <main class="container">
+        <h3>I - blocs positioning</h3>
+        <section class="row" id="one">
+            <p>12 colonnes</p>
+            <article class="col-1"></article>
+            <article class="col-2" style="background-color: lavender; border: solid 1px;">
+                <p>Coucou</p>
+            </article>
+            <article class="col-2"></article>
+            <article class="col-3" style="background-color: lavender; border: solid 1px;">
+                <p>ça</p>
+            </article>
+            <article class="col-2"></article>
+            <article class="col-2" style="background-color: lavender; border: solid 1px;">
+                <p>va?</p>
+            </article>
+        </section>
+    </main>
+    <br>
+    <main class="container">
+        <h3>II - imbricated elements</h3>
+        <div class="row align-items-start" id="two">
+            <article class="col-4" style="background-color: lavender; border: solid 1px;">
+                <p>Nouvel</p>
+            </article>
+            <article class="col-8" style="background-color: lavender; border: solid 1px;">
+                <section class="row">
+                    <p>Exercice</p>
+                    <article class="col-3" style="background-color: lavender; border: solid 1px;">
+                        <p>ces</p>
+                    </article>
+                    <article class="col-6" style="background-color: lavender; border: solid 1px;">
+                        <p>blocs sont tous</p>
+                    </article>
+                    <article class="col-3" style="background-color: lavender; border: solid 1px;">
+                        <p>dans</p>
+                    </article>
+                    <article class="col-4" style="background-color: lavender; border: solid 1px;">
+                        <p>la même</p>
+                    </article>
+                    <article class="col-4" style="background-color: lavender; border: solid 1px;">
+                        <p>div où est</p>
+                    </article>
+                    <article class="col-4" style="background-color: lavender; border: solid 1px;">
+                        <p>inscrit "Exercice".</p>
+                    </article>
+                    <article class="col-5" style="background-color: lavender; border: solid 1px;">
+                        <p>comment</p>
+                    </article>
+                    <article class="col-2" style="background-color: lavender; border: solid 1px;">
+                        <p>est</p>
+                    </article>
+                    <article class="col-5" style="background-color: lavender; border: solid 1px;">
+                        <p>ce possible ?</p>
+                    </article>
+                </section>
+            </article>
+        </div>
+    </main>
+    <br>
+    <main class="container">
+        <h3>III - change elements order</h3>
+        <section class="row" id="three">
+            <p>12 colonnes</p>
+            <article class="col-1"></article>
+            <article class="col-2" style="background-color: lavender; border: solid 1px;">
+                <p>Bloc 1 de 2</p>
+            </article>
+            <article class="col-2"></article>
+            <article class="col-2 order-5" style="background-color: lavender; border: solid 1px;">
+                <p>Bloc 2 de 2</p>
+            </article>
+            <article class="col-2 order-4"></article>
+            <article class="col-2" style="background-color: lavender; border: solid 1px;">
+                <p>Bloc 3 de 2</p>
+            </article>
+            <article class="col-1 order-5"></article>
+        </section>
+    </main>
+    <br>
+    <main class="container">
+        <h3>IV - practice makes good</h3>
+        <div class="row" id="four">
+            <article class="col" style="background-color: lavender; border: solid 1px;">
+                <p>6 colonnes</p>
+                <section class="row">
+                    <article class="col" style="background-color: lavender; border: solid 1px;">
+                        <p>4 colonnes</p>
+                    </article>
+                    <article class="col "></article>
+                    <article class="col" style="background-color: lavender; border: solid 1px;">
+                        <p>4 colonnes</p>
+                    </article>
+                </section>
+            </article>
+            <article class="col" style="background-color: lavender; border: solid 1px;">
+                <p>6 colonnes</p>
+                <section class="row">
+                    <article class="col" style="background-color: lavender; border: solid 1px;">
+                        <p>4 colonnes</p>
+                    </article>
+                    <article class="col-8" style="background-color: lavender; border: solid 1px;">
+                        <p>8 colonnes</p>
+                    </article>
+                </section>
+            </article>
+        </div>
+        <br>
+        <h3>V - responsive layout</h3>
+        <p>This part has a mobile and desktop responsive.</p>
+        <div class="row gap-3" id="five">
+            <header class="col col-md">
+                <p>Logo</p>
+            </header>
+            <header class="col-8 col-md-9">
+                <p>Titre</p>
+            </header>
+            <section class="col-12 col-md-12">
+                <p>Hero</p>
+            </section>
+            <section class="col-12 col-md">
+                <p>Zone 1</p>
+            </section>
+            <section class="col-12 col-md ms-md-3">
+                <p>Zone 2</p>
+            </section>
+            <section class="col-12 col-md-4 ms-md-5">
+                <p>Zone 3</p>
+            </section>
+            <section class="col-8 col-md-6">
+                <p>Zone 5</p>
+            </section>
+            <section class="col col-md">
+                <p>Zone 6</p>
+            </section>
+            <footer class="col-12 col-md-12">
+                <p>Footer</p>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
